@@ -1,0 +1,19 @@
+.verification-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .verification-code {
+    display: flex;
+    justify-content: center;
+    gap: 5px; /* Adjust the gap as needed */
+  }
+  
+  .verification-input {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center the text */
+  }
+  

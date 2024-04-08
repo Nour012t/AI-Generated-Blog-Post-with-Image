@@ -1,0 +1,42 @@
+body {
+    background-image: url('WhatsApp Image 2024-04-08 at 02.55.09_b5c44046.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+
+
+.login-btn, .sign-up {
+    background-color: #FF9933;
+    border: none;
+    color: white;
+    padding: 1em 2em; /* Adjust padding for better spacing */
+    text-align: center;
+    text-decoration: none;
+    display: block; /* Make buttons full width on small screens */
+    font-size: 1.5em; /* Adjust font size for better readability on smaller screens */
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px auto; /* Center buttons horizontally with vertical margin */
+    width: 80%; /* Set width to 80% of the parent container */
+    max-width: 500px; /* Limit maximum width */
+
+}
+.login-btn{
+    margin-top: 500 px;
+}
+
+.login-btn:hover, .sign-up:hover {
+    background-color: #45a049;
+}
+
+@media screen and (min-width: 768px) {
+    /* Apply styles for screens with a minimum width of 768px (tablets and desktops) */
+    div {
+        text-align: right;
+        width:500px;
+    }
+}
+
+
