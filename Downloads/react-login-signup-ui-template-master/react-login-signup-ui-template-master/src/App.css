@@ -23,7 +23,7 @@ button{
   width: 50px;
 }
 .App-logo {
-  height: 4000vmin; /* Increase the height of the logo */
+  height: 4000vmin; 
   pointer-events: none;
 }
 
@@ -35,7 +35,7 @@ button{
 
 .App-header {
   background-color: #282c34;
-  min-height: 300vh; /* Increase the minimum height of the header */
+  min-height: 300vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,15 +57,13 @@ button{
   }
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
   .App-header {
-    padding: 20px; /* Adjust padding for smaller screens */
-  }
+    padding: 20px; 
 }
-
+}
 @media (max-width: 576px) {
   .App-logo {
-    height: 300vmin; /* Reduce logo size for smaller screens */
+    height: 300vmin; 
   }
 }

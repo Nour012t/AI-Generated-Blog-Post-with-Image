@@ -22,14 +22,11 @@ export default class VerifyEmail extends Component {
   handleSubmit = (e) => {
     e.preventDefault();
     const enteredCode = Object.values(this.state).join('');
-    const verificationCode = "123456"; // الرمز التحقق الخاص بك (استبدله برمز التحقق الفعلي الخاص بك)
+    const verificationCode = "123456"; //    )
     if (enteredCode === verificationCode) {
-      // توجيه إلى صفحة ResetPassword إذا كان الرمز صحيحًا
-      // قد تحتاج إلى استخدام React Router للتنقل
-      // مثال: this.props.history.push('/ResetPassword');
-      window.location.href = "/ResetPassword"; // توجيه إلى صفحة ResetPassword
+      window.location.href = "/ResetPassword"; //  
     } else {
-      alert("رمز التحقق غير صحيح. يرجى المحاولة مرة أخرى."); // تنبيه إذا كان الرمز غير صحيح
+      alert("رمز التحقق غير صحيح. يرجى المحاولة مرة أخرى."); //  
     }
   };
 
@@ -51,7 +48,7 @@ export default class VerifyEmail extends Component {
               onChange={this.handleChange}
               required
               className="verification-input"
-              style={{ fontSize: '20px', width: '50px',height:'50px' }} // Adjust font size and width as needed
+              style={{ fontSize: '20px', width: '50px',height:'50px' }} 
 
             />
             <input
@@ -62,7 +59,7 @@ export default class VerifyEmail extends Component {
               onChange={this.handleChange}
               required
               className="verification-input"
-              style={{ fontSize: '20px', width: '50px',height:'50px' }} // Adjust font size and width as needed
+              style={{ fontSize: '20px', width: '50px',height:'50px' }} 
 
             />
             <input
@@ -73,7 +70,7 @@ export default class VerifyEmail extends Component {
               onChange={this.handleChange}
               required
               className="verification-input"
-              style={{ fontSize: '20px', width: '50px',height:'50px' }} // Adjust font size and width as needed
+              style={{ fontSize: '20px', width: '50px',height:'50px' }} 
 
             />
             <input
@@ -84,7 +81,7 @@ export default class VerifyEmail extends Component {
               onChange={this.handleChange}
               required
               className="verification-input"
-              style={{ fontSize: '20px', width: '50px',height:'50px' }} // Adjust font size and width as needed
+              style={{ fontSize: '20px', width: '50px',height:'50px' }} 
 
             />
             <input
@@ -95,7 +92,7 @@ export default class VerifyEmail extends Component {
               onChange={this.handleChange}
               required
               className="verification-input"
-              style={{ fontSize: '20px', width: '50px',height:'50px' }} // Adjust font size and width as needed
+              style={{ fontSize: '20px', width: '50px',height:'50px' }} 
 
             />
        <input
@@ -106,7 +103,7 @@ export default class VerifyEmail extends Component {
   onChange={this.handleChange}
   required
   className="verification-input"
-  style={{ fontSize: '20px', width: '50px',height:'50px' }} // Adjust font size and width as needed
+  style={{ fontSize: '20px', width: '50px',height:'50px' }} 
   
 
         />

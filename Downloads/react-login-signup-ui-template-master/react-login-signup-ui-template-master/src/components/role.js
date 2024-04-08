@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import './rolee.css'
 export default class Identify_Role extends Component {
   handleSubmit = (event) => {
-    event.preventDefault(); // منع السلوك الافتراضي لتقديم النموذج
+    event.preventDefault(); // 
     const الدورالمحدد = document.getElementById("الدور").value;
     if (الدورالمحدد !== "") {
-      window.location.href = "log1.html"; // إعادة توجيه إلى log1.html إذا تم اختيار دور
+      window.location.href = "log1.html"; //   .  
     } else {
-      alert("يرجى تحديد دورك"); // إظهار تنبيه إذا لم يتم تحديد دور
+      alert("يرجى تحديد دورك");
     }
   };
 

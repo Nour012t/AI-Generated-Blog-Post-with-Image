@@ -36,8 +36,6 @@ export default class ResetPassword extends Component {
               type="submit"
               className="btn btn-primary"
               onClick={() => {
-                // Handle password reset logic here
-                // For now, redirect to another page
                 window.location.href = 'log6.html';
               }}
             >

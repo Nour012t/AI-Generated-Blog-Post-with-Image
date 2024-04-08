@@ -7,13 +7,13 @@
   .verification-code {
     display: flex;
     justify-content: center;
-    gap: 5px; /* Adjust the gap as needed */
+    gap: 5px;
   }
   
   .verification-input {
-    width: 30px; /* Adjust the width as needed */
-    height: 30px; /* Adjust the height as needed */
-    border-radius: 5px; /* Rounded corners */
-    text-align: center; /* Center the text */
+    width: 30px; 
+    height: 30px; 
+    border-radius: 5px; 
+    text-align: center; 
   }
   
