@@ -32,7 +32,10 @@ export default class VerifyEmail extends Component {
 
   render() {
     return (
+      
       <div className="container">
+             
+
         <h1>تحقق من بريدك الإلكتروني</h1>
         <p className="instruction">
           لقد قمنا بإرسال رمز التحقق إلى عنوان بريدك الإلكتروني. الرجاء التحقق

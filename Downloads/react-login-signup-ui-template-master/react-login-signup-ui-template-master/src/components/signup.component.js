@@ -4,6 +4,7 @@ export default class SignUp extends Component {
   render() {
     return (
       <form>
+           
         <h3>إنشاء حساب</h3>
 
         <div className="mb-3">

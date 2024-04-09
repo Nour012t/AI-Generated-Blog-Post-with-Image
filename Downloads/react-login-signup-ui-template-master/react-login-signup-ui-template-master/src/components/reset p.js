@@ -4,6 +4,7 @@ export default class ResetPassword extends Component {
   render() {
     return (
       <div className="container">
+        
         <h1>إعادة تعيين كلمة المرور</h1>
         <br />
         <br />
@@ -29,8 +30,7 @@ export default class ResetPassword extends Component {
             />
           </div>
           <br />
-          <br />
-          <br />
+        
           <div className="d-grid">
             <button
               type="submit"

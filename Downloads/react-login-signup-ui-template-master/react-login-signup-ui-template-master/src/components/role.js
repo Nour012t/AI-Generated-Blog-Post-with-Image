@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './rolee.css'
 export default class Identify_Role extends Component {
+  
   handleSubmit = (event) => {
     event.preventDefault(); // 
     const الدورالمحدد = document.getElementById("الدور").value;
@@ -13,8 +14,12 @@ export default class Identify_Role extends Component {
 
   render() {
     return (
+      
       <div className="container">
-        <h1 style={{textAlign: "center"}}> اهلا بك في موقعنا من فضلك حدد دورك</h1>
+        <br/>
+        <br/>
+       
+        <h1 style={{textAlign: "center"}}> اهلا بك في موقع جزل التطوعي من فضلك حدد دورك</h1>
         <br />
         <form onSubmit={this.handleSubmit}>
           <label htmlFor="الدور">اختر دورك</label>

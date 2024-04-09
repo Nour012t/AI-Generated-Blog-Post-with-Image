@@ -4,6 +4,7 @@ export default class PasswordChanged extends Component {
   render() {
     return (
       <div className="container">
+            
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Twitter_Verified_Badge.svg/244px-Twitter_Verified_Badge.svg.png"
           alt="تم تغيير كلمة المرور"

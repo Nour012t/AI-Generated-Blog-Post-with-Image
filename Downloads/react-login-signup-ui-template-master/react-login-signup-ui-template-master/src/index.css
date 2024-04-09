@@ -12,7 +12,53 @@ body {
   height: 100vh; /* Set the height of the body to 100% of viewport height */
   margin: 0;
   padding: 0;
+  text-align: center;
+  background-image: url('WhatsApp Image 2024-04-09 at 03.42.53_bfd78b28.jpg');
+font-size: x-large;
+background-repeat: no-repeat;
+    background-size: 100% 110%;
+    float: left;
 }
+
+
+
+.full-screen-background {
+
+.log, .sign {
+  background-color: #FF9933;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: block; /* Make buttons full width on small screens */
+  font-size: 1.5em; /* Adjust font size for better readability on smaller screens */
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 20px auto; /* Center buttons horizontally with vertical margin */
+  width: 80%; /* Set width to 80% of the parent container */
+  max-width: 500px; /* Limit maximum width */
+  margin-left: 150px;
+  
+
+  
+
+}
+
+.log:hover, .sign:hover {
+  background-color: #45a049;
+}
+
+@media screen and (min-width: 768px) {
+  /* Apply styles for screens with a minimum width of 768px (tablets and desktops) */
+  div {
+      text-align: right;
+      width:500px;
+  }
+}
+}
+
+
+
 
 .container {
   flex-grow: 1; /* Make the container div fill the available space */

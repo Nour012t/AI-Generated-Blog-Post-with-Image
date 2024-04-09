@@ -3,7 +3,9 @@ import React, { Component } from 'react';
 export default class Login extends Component {
   render() {
     return (
+      
       <form style={{ direction: 'rtl' }}>
+            
         <h1>تسجيل الدخول</h1>
 
         <div className="mb-3">
@@ -23,7 +25,7 @@ export default class Login extends Component {
             placeholder="أدخل كلمة المرور"
           />
         </div>
-
+           
         <div className="mb-3">
           <div className="custom-control custom-checkbox">
             <input

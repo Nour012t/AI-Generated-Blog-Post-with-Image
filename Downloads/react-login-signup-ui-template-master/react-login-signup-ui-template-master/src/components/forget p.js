@@ -4,9 +4,9 @@ export default class ForgotPassword extends Component {
   render() {
     return (
       <div className="container">
+   
 
         <h1>نسيت كلمة المرور</h1>
-          <br/>
           <br/>
           
         <p className="instruction">الرجاء إدخال عنوان بريدك الإلكتروني أدناه لإعادة تعيين كلمة المرور الخاصة بك</p>
@@ -27,17 +27,14 @@ export default class ForgotPassword extends Component {
               
           <div className="d-grid">
 
-            <button type="submit" className="btn btn-primary" onClick={() => { window.location.href = 'log4.html'; }}>
+            <button type="submit" className="btn btn-primary" onClick={() => { window.location.href = '#'; }}>
               
               <a href="/VerifyEmail" style={{color: 'white', textDecoration: 'none'}}>إرسال الرمز</a>
             </button>
           </div>
         </form>
         <a href="/sign-in"  >العودة لتسجيل الدخول</a>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+    
       </div>
       
     );
